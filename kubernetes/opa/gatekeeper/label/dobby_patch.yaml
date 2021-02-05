@@ -1,0 +1,8 @@
+metadata:
+  labels:
+    gatekeeper: "true"
+spec:
+  template:
+    metadata:
+      labels:
+        gatekeeper: "true"
