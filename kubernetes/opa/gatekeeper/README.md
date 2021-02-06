@@ -24,7 +24,7 @@ kubectl apply -f label/constraint.yaml
 3. Deploy sample application without label
 
 ```bash
-kubectl apply -f examples/dobby.yaml
+kubectl apply -f label/dobby.yaml
 ```
 
 4. Check deployment
@@ -39,7 +39,7 @@ kubectl describe rs
 5. Patch sample application with label
 
 ```bash
-kubectl patch deployment dobby --patch "$(cat examples/dobby_patch.yaml)"
+kubectl patch deployment dobby --patch "$(cat label/dobby_patch.yaml)"
 ```
 
 6. Check deployment

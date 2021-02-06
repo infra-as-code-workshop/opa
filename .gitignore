@@ -35,3 +35,5 @@ terraform.rc
 
 .envrc
 kubernetes/cluster/scripts
+plan.out
+tfplan.json
