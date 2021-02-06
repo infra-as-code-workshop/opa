@@ -1,5 +1,5 @@
 module "k3d_demo_cluster" {
-  source       = "./modules/k3d"
+  source       = "github.com/infra-as-code-workshop/terraform-modules/k3d"
   cluster_name = "opa"
   node_count   = 3
 }

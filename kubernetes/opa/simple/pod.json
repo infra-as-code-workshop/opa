@@ -24,7 +24,7 @@
         "containers": [
           {
             "name": "dobby",
-            "image": "thecasualcoder/dobby",
+            "image": "thecasualcoder/dobby:blabla",
             "env": [
               {
                 "name": "VERSION",
